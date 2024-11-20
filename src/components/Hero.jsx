@@ -1,7 +1,7 @@
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
 import React, { useEffect, useState } from "react";
-import { heroVideo, smallHeroVideo } from "../utils";
+import { heroVideo, smallHeroVideo } from "./../utils/index";
 
 const Hero = () => {
   const [videoSrc, setVideoSrc] = useState(
@@ -19,7 +19,7 @@ const Hero = () => {
   useEffect(() => {
     window.addEventListener("resize", handleVideoSrc);
 
-    //clean up
+    // clean up
     return () => {
       window.removeEventListener("resize", handleVideoSrc);
     };
@@ -38,7 +38,7 @@ const Hero = () => {
 
   return (
     <section className="w-full nav-height bg-black relative flex flex-center">
-      <div className="h-5/6 flex-center flex-col">
+      <div className="h-5/6 flex-center w-full flex-col">
         <p id="hero" className="hero-title">
           iPhone 15 Pro
         </p>

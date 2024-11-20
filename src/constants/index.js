@@ -9,9 +9,7 @@ import {
   yellowImg,
 } from "../utils";
 
-
 export const navLists = ["Store", "Mac", "iPhone", "Support"];
-
 
 export const hightlightsSlides = [
   {
@@ -48,7 +46,6 @@ export const hightlightsSlides = [
   },
 ];
 
-
 export const models = [
   {
     id: 1,
@@ -76,12 +73,10 @@ export const models = [
   },
 ];
 
-
 export const sizes = [
   { label: '6.1"', value: "small" },
   { label: '6.7"', value: "large" },
 ];
-
 
 export const footerLinks = [
   "Privacy Policy",
@@ -90,6 +85,3 @@ export const footerLinks = [
   "Legal",
   "Site Map",
 ];
-
-
-
